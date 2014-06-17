@@ -28,6 +28,10 @@ Ext.Write() takes one string argument followed by one numeric argument. It write
 For example:
 
 
+```
+#!java
+
+
 run("EPICSIJ ");
 //Write an epics variabe
 Ext.write("KOZ:m1", 1);
@@ -35,5 +39,4 @@ Ext.write("KOZ:m1", 1);
 x= Ext.read("KOZ:m1.RBV");
 //Print the string to an imagej console
 print(x);
-
-
+```
